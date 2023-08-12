@@ -1,0 +1,70 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+.main-container{
+    height: 100vh;
+    width: 100%;
+}
+.react-calculator{
+    border: 0.1rem solid gray;
+    width: 25%;
+    height: 48%;
+    margin: 0rem auto;
+    border-radius: 1rem;
+    padding: 3rem;
+    margin-top: 11.5rem;
+    text-align: center;
+    
+    box-shadow: rgba(181, 57, 156, 0.25) 0px 54px 70px, rgba(117, 29, 94, 0.12) 0px -12px 30px, rgba(81, 43, 180, 0.12) 0px 4px 30px, rgba(121, 109, 192, 0.17) 0px 12px 30px, rgba(148, 57, 130, 0.09) 0px -3px 30px;
+}
+
+.react-calculator h1{
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.cal-input input{
+    width: 85%;
+    margin-bottom: 1rem;
+    height: 2.5rem;
+    font-size: 1rem;
+    border: 0.17rem solid black;
+}
+
+.cal-buttons{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1.2rem;
+}
+
+.cal-buttons button{
+    height: 3rem;
+    width: 3rem;
+    background-color: #2B2B2B;
+    color: white;
+}
+
+
+@media (max-width: 768px) {
+  .react-calculator {
+    width: 80%;
+    padding: 2rem;
+  }
+
+  .cal-input input,
+  .cal-buttons button {
+    width: 100%;
+  }
+
+  /* .cal-buttons {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 1.5rem;
+  } */
+}
